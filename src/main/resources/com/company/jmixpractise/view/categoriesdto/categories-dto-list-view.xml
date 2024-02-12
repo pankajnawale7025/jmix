@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <view xmlns="http://jmix.io/schema/flowui/view"
       xmlns:c="http://jmix.io/schema/flowui/jpql-condition"
-      title="msg://categoryListView.title"
-      focusComponent="categoriesDataGrid">
+      title="msg://categoriesDTOListView.title"
+      focusComponent="categoriesDToesDataGrid">
     <data>
-        <collection id="categoriesDc"
-                    class="com.company.jmixpractise.dto.Category">
-            <loader id="categoriesDl" readOnly="true"/>
+        <collection id="categoriesDToesDc"
+                    class="com.company.jmixpractise.dto.CategoriesDTO">
+            <loader id="categoriesDToesDl" readOnly="true"/>
         </collection>
     </data>
     <facets>
@@ -21,23 +21,21 @@
     </actions>
     <layout>
         <hbox id="buttonsPanel" classNames="buttons-panel">
-            <button id="createBtn" action="categoriesDataGrid.create"/>
-            <button id="editBtn" action="categoriesDataGrid.edit"/>
-            <button id="excludeBtn" action="categoriesDataGrid.exclude"/>
-            <button id="readBtn" action="categoriesDataGrid.read"/>
-            <button id="removeBtn" action="categoriesDataGrid.remove"/>
-            <simplePagination id="pagination" dataLoader="categoriesDl"/>
+            <button id="addBtn" action="categoriesDToesDataGrid.add"/>
+            <button id="createBtn" action="categoriesDToesDataGrid.create"/>
+            <button id="editBtn" action="categoriesDToesDataGrid.edit"/>
+            <button id="removeBtn" action="categoriesDToesDataGrid.remove"/>
+            <simplePagination id="pagination" dataLoader="categoriesDToesDl"/>
         </hbox>
-        <dataGrid id="categoriesDataGrid"
+        <dataGrid id="categoriesDToesDataGrid"
                   width="100%"
                   minHeight="20em"
-                  dataContainer="categoriesDc"
+                  dataContainer="categoriesDToesDc"
                   columnReorderingAllowed="true">
             <actions>
+                <action id="add" type="list_add"/>
                 <action id="create" type="list_create"/>
                 <action id="edit" type="list_edit"/>
-                <action id="exclude" type="list_exclude"/>
-                <action id="read" type="list_read"/>
                 <action id="remove" type="list_remove"/>
             </actions>
             <columns resizable="true">
@@ -53,5 +51,6 @@
             <button id="selectBtn" action="selectAction"/>
             <button id="discardBtn" action="discardAction"/>
         </hbox>
+
     </layout>
 </view>

@@ -1,0 +1,92 @@
+[
+  {
+    "@id": "1",
+    "auditorEmail": "m.konar@direction.biz",
+    "auditorEmailMonetaryHigh": "m.konar@direction.biz",
+    "auditorEmailMonetaryLow": "m.konar@direction.biz",
+    "auditorEmailMonetaryMiddle": "m.konar@direction.biz",
+    "id": 1400,
+    "label": "CA-SU"
+  },
+  {
+    "@id": "2",
+    "auditorEmail": "m.konar@direction.biz",
+    "auditorEmailMonetaryHigh": "m.konar@direction.biz",
+    "auditorEmailMonetaryLow": "m.konar@direction.biz",
+    "auditorEmailMonetaryMiddle": "m.konar@direction.biz",
+    "id": 2,
+    "label": "DOB"
+  },
+  {
+    "@id": "3",
+    "auditorEmail": "m.konar@direction.biz",
+    "auditorEmailMonetaryHigh": "m.konar@direction.biz",
+    "auditorEmailMonetaryLow": "m.konar@direction.biz",
+    "auditorEmailMonetaryMiddle": "m.konar@direction.biz",
+    "id": 3400,
+    "label": "DOB-HEM"
+  },
+  {
+    "@id": "4",
+    "auditorEmail": "m.konar@direction.biz",
+    "auditorEmailMonetaryHigh": "m.konar@direction.biz",
+    "auditorEmailMonetaryLow": "m.konar@direction.biz",
+    "auditorEmailMonetaryMiddle": "m.konar@direction.biz",
+    "id": 3800,
+    "label": "Fashion Private Label"
+  },
+  {
+    "@id": "5",
+    "auditorEmail": "m.konar@direction.biz",
+    "auditorEmailMonetaryHigh": "m.konar@direction.biz",
+    "auditorEmailMonetaryLow": "m.konar@direction.biz",
+    "auditorEmailMonetaryMiddle": "m.konar@direction.biz",
+    "id": 3,
+    "label": "HAKA"
+  },
+  {
+    "@id": "6",
+    "auditorEmail": "m.konar@direction.biz",
+    "auditorEmailMonetaryHigh": "m.konar@direction.biz",
+    "auditorEmailMonetaryLow": "m.konar@direction.biz",
+    "auditorEmailMonetaryMiddle": "m.konar@direction.biz",
+    "id": 1000,
+    "label": "Haus- und Heimtex"
+  },
+  {
+    "@id": "7",
+    "auditorEmail": "m.konar@direction.biz",
+    "auditorEmailMonetaryHigh": "m.konar@direction.biz",
+    "auditorEmailMonetaryLow": "m.konar@direction.biz",
+    "auditorEmailMonetaryMiddle": "m.konar@direction.biz",
+    "id": 8,
+    "label": "Haushaltselektro"
+  },
+  {
+    "@id": "8",
+    "auditorEmail": "m.konar@direction.biz",
+    "auditorEmailMonetaryHigh": "m.konar@direction.biz",
+    "auditorEmailMonetaryLow": "m.konar@direction.biz",
+    "auditorEmailMonetaryMiddle": "m.konar@direction.biz",
+    "id": 2200,
+    "label": "Home &amp; Beauty"
+  },
+  {
+    "@id": "9",
+    "auditorEmail": "m.konar@direction.biz",
+    "auditorEmailMonetaryHigh": "m.konar@direction.biz",
+    "auditorEmailMonetaryLow": "m.konar@direction.biz",
+    "auditorEmailMonetaryMiddle": "m.konar@direction.biz",
+    "id": 1800,
+    "label": "Intern,nur Aufstellung"
+  },
+  {
+    "@id": "10",
+    "auditorEmail": "m.konar@direction.biz",
+    "auditorEmailMonetaryHigh": "m.konar@direction.biz",
+    "auditorEmailMonetaryLow": "m.konar@direction.biz",
+    "auditorEmailMonetaryMiddle": "m.konar@direction.biz",
+    "id": 6,
+    "label": "KOB"
+  }
+]

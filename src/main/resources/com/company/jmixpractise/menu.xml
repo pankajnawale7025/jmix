@@ -3,7 +3,8 @@
 
     <menu id="application" title="msg://com.company.jmixpractise/menu.application.title" opened="true">
         <item view="jmix_User.list" title="msg://com.company.jmixpractise.view.user/UserListView.title"/>
-        <item view="jmix_Category.list" title="msg://com.company.jmixpractise.view.category/categoryListView.title"/>
+        <item view="jmix_CategoriesDTO.list"
+              title="msg://com.company.jmixpractise.view.categoriesdto/categoriesDTOListView.title"/>
     </menu>
 
 </menu-config>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <view xmlns="http://jmix.io/schema/flowui/view"
-      title="msg://categoryDetailView.title"
+      title="msg://categoriesDTODetailView.title"
       focusComponent="form">
     <data>
-        <instance id="categoryDc"
-                  class="com.company.jmixpractise.dto.Category">
-            <loader id="categoryDl"/>
+        <instance id="categoriesDTODc"
+                  class="com.company.jmixpractise.dto.CategoriesDTO">
+            <loader id="categoriesDTODl"/>
         </instance>
     </data>
     <facets>
@@ -16,8 +16,8 @@
         <action id="closeAction" type="detail_close"/>
     </actions>
     <layout>
-        <formLayout id="form" dataContainer="categoryDc">
-            <textField id="idField" property="id" required="true"/>
+        <formLayout id="form" dataContainer="categoriesDTODc">
+            <textField id="idField" property="id"/>
             <textField id="labelField" property="label"/>
             <textField id="auditorEmailField" property="auditorEmail"/>
             <textField id="auditorEmailMonetaryLowField" property="auditorEmailMonetaryLow"/>
@@ -27,10 +27,6 @@
         <hbox id="detailActions">
             <button id="saveAndCloseBtn" action="saveAction"/>
             <button id="closeBtn" action="closeAction"/>
-
-
-
-
         </hbox>
     </layout>
 </view>
